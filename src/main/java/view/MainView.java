@@ -8,6 +8,7 @@ import javax.swing.*;
 public class MainView {
     private JButton selectButton;
     public JPanel mainPanel;
+    private MyCanvasClass myPaintClass;
     private JPanel top;
     private JButton ovalButton;
     private JButton rectangleButton;
