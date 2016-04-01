@@ -15,4 +15,5 @@ public class MainView {
     private JButton squareButton;
     private JButton undoButton;
     private JButton redoButton;
+    private JPanel canvas;
 }
