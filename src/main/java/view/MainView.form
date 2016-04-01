@@ -2,7 +2,7 @@
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="view.MainView">
   <grid id="27dc6" binding="mainPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
     <constraints>
-      <xy x="20" y="20" width="478" height="400"/>
+      <xy x="20" y="20" width="587" height="400"/>
     </constraints>
     <properties/>
     <border type="none"/>
@@ -48,11 +48,26 @@
               <text value="redo"/>
             </properties>
           </component>
+          <component id="41e47" class="javax.swing.JButton" binding="saveButton">
+            <constraints/>
+            <properties>
+              <enabled value="true"/>
+              <text value="save"/>
+            </properties>
+          </component>
+          <component id="e18f6" class="javax.swing.JButton" binding="loadButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="load"/>
+            </properties>
+          </component>
         </children>
       </grid>
       <grid id="4a756" binding="canvas" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
         <constraints border-constraint="Center"/>
-        <properties/>
+        <properties>
+          <preferredSize width="20" height="400"/>
+        </properties>
         <border type="line" title="canvas"/>
         <children/>
       </grid>
